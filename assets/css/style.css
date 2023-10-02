@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+.nayeem-logos {
+  overflow: hidden;
+  padding: 60px 0;
+  background-color: white;
+  white-space: nowrap;
+}
+.nayeem-logos:hover .nayeem-logos-slide {
+  animation-play-state: paused;
+}
+.nayeem-logos-slide {
+  animation: 15s slide infinite linear;
+  display: inline-block;
+}
+.nayeem-logos-slide img {
+  height: 50px;
+  margin: 0 40px;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}/*# sourceMappingURL=style.css.map */
